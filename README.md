@@ -55,12 +55,11 @@ Upon starting the application, you will be presented with a user interface that 
   - Last name: The last name of the player.
   - Date of Birth: The date of birth of the player.
   - Preferred Position: Select preferred position of the player from drop down list.
-  - Skill Level: Select skill level of the player from drop down list.
-
-*WARNING: The team can only be built when has at least 10 players, and the team size is between 10 to 20. If you enter more than 20 players, the players with lowest skill level will be removed from the team until there is only 20 players.*
-    
+  - Skill Level: Select skill level of the player from drop down list. 
 2. To display the team players and their assigned jersey numbers, click the "Show Team Member" button.
 3. To display the lineup players and their assigned positions, click the "Show Lineup" button.
+
+*WARNING: The team can only be built when has at least 10 players, and the team size is between 10 to 20. If you enter more than 20 players, the players with lowest skill level will be removed from the team until there is only 20 players.*
 
 ## Design/Model Changes
 
