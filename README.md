@@ -1,24 +1,5 @@
 # Soccer Team Management System
 
-This repository contains a Java-based Soccer Team Management System that utilizes the Model-View-Conrtoller(MVC) design pattern. The purpose of this application is to help users manage soccer team members and their lineups.
-
-# MVC Design Pattern
-
-The Model-View-Controller(MVC) design pattern is a useful architechtural pattern for designing applications with a clear seperation of concerns. It is particularly beneficial when you want to separate the data management logic from the user interface and input handling.
-The pattern is composed of three main components:
-Model: Represents the data and business logic of the application.
-View: Represents the user interface and visualization of the data.
-Controller: Handles user input and communicates between the Model and View.
-
-Using the MVC pattern is a good idea when you need to create applications that are maintainable.
-
-## Example
-
-In this Soccer Team Management System, we have implemented the MVC pattern as follows:
-
-Model: SoccerTeamModel interface and its implementation SoccerTeamModelImpl class represents the soccer team data and provides methods to manage players and lineups.
-View: SoccerTeamView interface and its implementation SoccerTeamViewImpl class define the user interface for adding and displaying team members and lineups.
-Controller: SoccerTeamController interface and its implementation SoccerTeamControllerImpl class handles user input from the view, interacts with the model, and updates the view accordingly.
 
 ## About/Overview
 
@@ -63,17 +44,23 @@ Upon starting the application, you will be presented with a user interface that 
 
 ## Design/Model Changes
 
-In the initial design, the player and lineup management features were tightly coupled. In order to improve the separation of concerns and make the application more maintainable, the MVC design pattern was introduced. This allowed for a clear distinction between data management, user interface, and input handling.
+In the initial design, both player and lineup management features were handled through the Soccer team model. To improve the separation of concerns and make the application more visually appealing and maintainable, the MVC design pattern was introduced. This allowed for a clear distinction between data management, user interface, and input handling.
+
+In this Soccer Team Management System, we have implemented the MVC pattern as follows:
+- Model: SoccerTeamModel interface and its implementation SoccerTeamModelImpl class represents the soccer team data and provides methods to manage players and lineups.
+- View: SoccerTeamView interface and its implementation SoccerTeamViewImpl class define the user interface for adding and displaying team members and lineups.
+- Controller: SoccerTeamController interface and its implementation SoccerTeamControllerImpl class handles user input from the view, interacts with the model, and updates the view accordingly.
 
 ## Assumptions
 
-Each player can only be assigned to one position in a lineup.
-Players are uniquely identified by their names.
+This program is built based on the assumption that:
+1. Players are uniquely identified by their names. So there are no players with identical names in the system to enable alphabetical sorting by last name.
+2. The user input is expected to conform to naming conventions, the given date format. Additionally, the date of birth should not exceed the current date.
 
 ## Limitations
 
-The current implementation does not support saving and loading data to and from external storage.
-The user interface is text-based and may not be as intuitive as a graphical user interface.
+1. The current implementation does not support saving and loading data to and from external storage.
+2. The user interface is text-based and may not be as intuitive as a graphical user interface.
 
 ## UML Diagram
 
