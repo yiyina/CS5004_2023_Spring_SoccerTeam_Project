@@ -50,7 +50,7 @@ No additional arguments are required to run the application.
 
 Upon starting the application, you will be presented with a user interface that allows you to add soccer players, display team members and their assigned positions, and display lineup of the soccer team and players' assigned positions.
 
-1. To add a player, enter the player's following information in related fields:
+1. The player added by you will be displayed in the right table in the main window. To add a player, enter the player's following information in related fields:
   - First name: The first name of the player.
   - Last name: The last name of the player.
   - Date of Birth: The date of birth of the player.
@@ -58,7 +58,6 @@ Upon starting the application, you will be presented with a user interface that 
   - Skill Level: Select skill level of the player from drop down list.
   - WARNING: The team can only be built when has at least 10 players, and the team size is between 10 to 20. 
     If you enter more than 20 players, the lowest skill level player will be removed from the team.
-The player added by you will be displayed in the right table in the main window.
 2. To display the team players and their assigned jersey numbers, click the "Show Team Member" button.
 3. To display the lineup players and their assigned positions, click the "Show Lineup" button.
 
