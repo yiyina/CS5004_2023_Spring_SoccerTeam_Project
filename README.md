@@ -61,6 +61,7 @@ This program is built based on the assumption that:
 
 1. The current implementation does not support saving and loading data to and from external storage.
 2. The user interface is text-based and may not be as intuitive as a graphical user interface.
+3. The current implementation may not provide comprehensive error handling, such as handling invalid input or duplicate player names. 
 
 ## UML Diagram
 
