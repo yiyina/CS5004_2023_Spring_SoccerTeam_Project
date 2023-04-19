@@ -26,7 +26,7 @@ The Soccer Team Management System provides a simple and user-friendly way to add
 
 ## List of Features
 - Add soccer players
-- Display team members' name and their assigned jersey numbers
+- Display team members' name and their random assigned jersey numbers from 1 to 20
 - Display lineup members' name and their assigned positions
   - 1 Goalie
   - 2 Defender
