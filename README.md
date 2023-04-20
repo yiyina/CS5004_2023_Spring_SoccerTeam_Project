@@ -63,13 +63,5 @@ This program is built based on the assumption that:
 2. The user interface is text-based and may not be as intuitive as a graphical user interface.
 3. The current implementation may not provide comprehensive error handling, such as handling invalid input or duplicate player names. 
 
-## UML Diagram
-
-A UML class diagram for the code is provided in the repository. This diagram illustrates the relationships between the classes and their respective methods and attributes, making it easier to understand the overall structure of the application.
-
-## Code Style and Documentation
-
-The code in this repository follows the style principles learned in class, with consistent indentation, clear naming conventions, and proper use of access modifiers. Javadoc-style comments are available for all classes, methods, and attributes, providing clear explanations of their purpose and functionality. This ensures that the code is maintainable and easy to understand for other developers who may work on the project.
-
 ## Citations
 [1]"Compile and build applications with IntelliJ IDEA | IntelliJ IDEA," IntelliJ IDEA Help. https://www.jetbrains.com/help/idea/compiling-applications.html#rebuild_project (accessed Apr. 18, 2023).
