@@ -20,12 +20,11 @@ To run the Soccer Team Management System, follow these steps:
 
 1. Make sure you have Java installed on your computer. 
   - You can download it from the official Java website https://www.java.com/en/.
-2. Open a terminal or command prompt.
-3. Navigate to the directory containing the JAR file.
-  - Alternatively, you can navigate to the directory where you downloaded and stored the JAR file.
-4. Run the following command in terminal: java -jar U10Team.jar
-  - If you navigate to the directory where you downloaded and stored the U10Team.jar file, double click it.
-No additional arguments are required to run the application.
+2. Download the "res" directory in this github repository.
+2. You can navigate to the directory where you downloaded and stored the "res" directory, then double click it to navigate into it.
+3. You will find the "U10Team.jar" file inside of it.
+4. Double click on the "U10Team.jar" file to run it on your computer.
+5. The main window will show up and you can start to manage the team (See *"How to Use the Program"* part below).
 
 ## How to Use the Program
 
