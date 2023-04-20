@@ -36,6 +36,7 @@ Upon starting the application, you will be presented with a user interface that 
   - Last name: The last name of the player.
     - Following name convention, no duplications are allowed
   - Date of Birth: The date of birth of the player.
+    - player cannot be added if age is greater than 10
     - Input formate should be *"yyyymmdd"*
   - Preferred Position: Select preferred position of the player from drop down list.
   - Skill Level: Select skill level of the player from drop down list. 
