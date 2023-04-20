@@ -30,20 +30,24 @@ To run the Soccer Team Management System, follow these steps:
 
 Upon starting the application, you will be presented with a user interface that allows you to add soccer players, display team members and their assigned positions, and display lineup of the soccer team and players' assigned positions.
 
-1. The player added by you will be displayed in the right table in the main window. To add a player, enter the player's following information in related fields:
-  - First name: The first name of the player.
+1. The player added by you will be displayed in the right table area in the main window. To add a player, enter the player's following information in related fields:
+  - First name: The first name of the player. 
+    - Following name convention
   - Last name: The last name of the player.
+    - Following name convention, no duplications are allowed
   - Date of Birth: The date of birth of the player.
+    - Input formate should be *"yyyymmdd"*
   - Preferred Position: Select preferred position of the player from drop down list.
   - Skill Level: Select skill level of the player from drop down list. 
-2. To display the team players and their assigned jersey numbers, click the "Show Team Member" button.
-3. To display the lineup players and their assigned positions, click the "Show Lineup" button.
+2. To display the team players and their assigned jersey numbers, click the *"Show Team Member"* button.
+3. To display the lineup players and their assigned positions, click the *"Show Lineup"* button.
 
-*WARNING: The team can only be built when has at least 10 players, and the team size is between 10 to 20. If you enter more than 20 players, the players with lowest skill level will be removed from the team until there is only 20 players.*
+*WARNING: The team can only be built when it has at least 10 players, and the team size is between 10 to 20 (included). If you enter more than 20 players, the players with lowest skill level will be removed from the team until there is only 20 players.*
 
 ## Design/Model Changes
 
-In the initial design, both player and lineup management features were handled through the Soccer team model. To improve the separation of concerns and make the application more visually appealing and maintainable, the MVC design pattern was introduced. This allowed for a clear distinction between data management, user interface, and input handling.
+In the initial design, there is no user interface. Only has one driver class to run the program which is inconvinent and not maintainable.
+At this time, the MVC design pattern was introduced. This allowed for a clear distinction between data management, user interface, and input handling.
 
 In this Soccer Team Management System, we have implemented the MVC pattern as follows:
 - Model: SoccerTeamModel interface and its implementation SoccerTeamModelImpl class represents the soccer team data and provides methods to manage players and lineups.
