@@ -41,7 +41,9 @@ Upon starting the application, you will be presented with a user interface that 
   - Preferred Position: Select preferred position of the player from drop down list.
   - Skill Level: Select skill level of the player from drop down list. 
 2. To display the team players and their assigned jersey numbers, click the *"Show Team Member"* button.
-3. To display the lineup players and their assigned positions, click the *"Show Lineup"* button.
+  - If the number of players smaller than 10, cannot create team, thus click the button will not show the team members.
+  - If the number of inputs exceeds 20 players, the exceeding part will replace the 20 players with the lowest skill levels to ensure that the team size does not exceed 20. 
+4. To display the lineup players and their assigned positions, click the *"Show Lineup"* button.
 
 *WARNING: The team can only be built when it has at least 10 players, and the team size is between 10 to 20 (included). If you enter more than 20 players, the players with lowest skill level will be removed from the team until there is only 20 players.*
 
