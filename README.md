@@ -6,9 +6,9 @@
 The Soccer Team Management System provides a simple and user-friendly way to add players to soccer team and assign them positions in lineups. By utilizing the MVC design pattern, the application ensures a clean separation of concerns, making it maintainable.
 
 ## List of Features
-- Add soccer players
-- Display team members' name and their random assigned jersey numbers from 1 to 20
-- Display lineup members' name and their assigned positions
+- Add soccer players.
+- Display team members and their random assigned jersey numbers from 1 to 20.
+- Display lineup members and their assigned positions.
   - 1 Goalie
   - 2 Defender
   - 3 Midfielder
