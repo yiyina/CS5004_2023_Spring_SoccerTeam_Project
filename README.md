@@ -62,7 +62,8 @@ In this Soccer Team Management System, we have implemented the MVC pattern as fo
 
 This program is built based on the assumption that:
 1. Players are uniquely identified by their names. So there are no players with identical names in the system to enable alphabetical sorting by last name.
-2. The user input is expected to conform to naming conventions, the given date format. Additionally, the date of birth should not exceed the current date.
+2. The user input fields "First Name" and "Last Name" are expected to conform to naming conventions. 
+3. The user input field "Date of Birth" is expected to be the given date format "yyyymmdd". Additionally, the date of birth should not exceed the current date.
 
 ## Limitations
 
