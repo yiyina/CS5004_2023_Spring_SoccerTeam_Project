@@ -35,7 +35,7 @@ Upon starting the application, you will be presented with a user interface that 
   - First name: The first name of the player. 
     - Following name convention
   - Last name: The last name of the player.
-    - Following name convention, no duplications are allowed
+    - Following name convention
   - Date of Birth: The date of birth of the player.
     - player cannot be added if age is greater than 10
     - Input formate should be *"yyyymmdd"*
